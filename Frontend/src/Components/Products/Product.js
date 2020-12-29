@@ -3,8 +3,8 @@ import { Card } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 import Rating from './Rating'
 
-//distructuring by using curely 
-//braces in the function to access the product directly
+//distructuring by using curely braces 
+//in the function to access the product directly
 const Product = ({product}) => {
     return (
         <Card className='my-3 p-3 rounded'>

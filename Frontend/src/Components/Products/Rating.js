@@ -1,8 +1,15 @@
 import React from 'react'
 
-const Rating = () => {
+const Rating = ({value, text}) => {
     return (
-        <div>
+        <div className="Rating">
+            <span>
+                <i className={value >= 1 ? 'fas fa--star'
+                : value >= 0.5 ? 'fas far-star-half-alt'
+                : 'fas far-star'
+            }></i>
+            </span>
+
             
         </div>
     )
